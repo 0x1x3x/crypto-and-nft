@@ -1,0 +1,51 @@
+/* Header */
+.navContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.mobileBtn {
+  display: none;
+  margin: auto 0;
+  margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+  .mobileBtn {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: flex-end;
+    gap: 15px;
+    width: 100%;
+    top: -100%;
+    left: 0;
+    right: 0;
+    padding: 15px 15px;
+    background-color: #000;
+    text-align: end;
+  }
+
+  .active {
+    top: 8%;
+  }
+}

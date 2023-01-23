@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  display: flex;
+  font-size: 1.8em;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+h3 {
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 900;
+  font-style: italic;
+}
+
+p {
+  text-align: justify;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.mint-button {
+  border-radius: 8px;
+  padding: 5%;
+  font-size: 16px;
+  margin: auto;
+  background-color: #111111;
+  color: #bfc500;
+  font-weight: 900;
+}
+
+.goal {
+  color: #bfc500;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1em;
+}
+
+.com-button {
+  border-radius: 8px;
+  padding: 5%;
+  font-size: 16px;
+  margin: auto;
+  background-color: #bfc500;
+  color: #111111;
+  font-weight: 900;
+}

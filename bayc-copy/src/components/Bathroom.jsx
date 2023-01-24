@@ -3,7 +3,7 @@ import React from "react";
 const Bathroom = () => {
   return (
     <div class="container">
-      <div class="row px-5 md:px-10 mt-5 mb-4">
+      <div class="row md:px-10 mt-5 mb-4">
         <div class="column">
           <div class="row">
             <div class="md:max-w-[58.333%] md:basis-[58.333%] mb-5">

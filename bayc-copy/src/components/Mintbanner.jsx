@@ -3,7 +3,7 @@ import React from "react";
 const Mintbanner = () => {
   return (
     <div class="container">
-      <div class="row px-5 md:px-10 mt-4 md:mb-5">
+      <div class="row md:px-10 mt-4 md:mb-5">
         <div id="buy-an-ape" class="column">
           <div class="mb-5">
             <div class="row m-auto p-4 bg-[#bfc500] md:h-28">
@@ -19,7 +19,7 @@ const Mintbanner = () => {
               <div class="flex mt-5 md:basis-[15%] md:max-w-[15%] md:my-auto mx-auto">
                 <a href="https://opensea.io/collection/boredapeyachtclub">
                   <button class="mint-button" type="button">
-                    DEMO MINT BUTTON
+                    BUY AN APE
                   </button>
                 </a>
               </div>

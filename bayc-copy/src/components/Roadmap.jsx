@@ -3,7 +3,7 @@ import React from "react";
 const Roadmap = () => {
   return (
     <div class="container">
-      <div class="row px-5 md:px-10 mt-5 mb-5">
+      <div class="row md:px-10 mt-5 mb-5">
         <div id="roadmap" class="row mb-5 ">
           <div class="md:grow-0 md:shrink-0 md:max-w-[75%] md:basis-[75%]">
             <h1 class="mb-4">ROADMAP ACTIVATIONS</h1>

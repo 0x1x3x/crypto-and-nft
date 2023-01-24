@@ -3,7 +3,7 @@ import React from "react";
 const Tools = () => {
   return (
     <div class="container">
-      <div class="row px-5 md:px-10 mt-8 mb-4">
+      <div class="row md:px-10 mt-8 mb-4">
         <div class="column">
           <div class="row">
             <div class="md:grow-0 md:shrink-0 md:max-w-[66.666%] md:basis-[66.666%] mb-5">
